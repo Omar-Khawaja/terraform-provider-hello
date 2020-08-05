@@ -8,6 +8,7 @@ func Provider() *schema.Provider {
 	return &schema.Provider{
 		ResourcesMap: map[string]*schema.Resource{
 			"hello_ping":        pingOrder(),
+			"hello_pong":        pongOrder(),
 			"hello_append_item": appendItem(),
 		},
 	}
