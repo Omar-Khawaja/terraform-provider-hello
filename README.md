@@ -1,7 +1,8 @@
 ## About
 
 Demo Terraform provider for
-[hello-service](https://github.com/Omar-Khawaja/hello-service)
+[hello-service](https://github.com/Omar-Khawaja/hello-service). This code
+assumes you are using Terraform 0.13.0+
 
 ## Build and Installation
 
